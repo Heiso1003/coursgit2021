@@ -1,0 +1,90 @@
+#resolution {
+  height: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: pink;
+  width: 100%;
+  text-align: center;
+  opacity: 0.5;
+}
+
+#resolution::after {
+  content: "XS < 576px";
+}
+
+@media (min-width: 576px) {
+  #resolution {
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+  }
+
+  #resolution::after {
+    content: "SM < 768px";
+  }
+}
+@media (min-width: 768px) {
+  #resolution {
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: green;
+    width: 100%;
+    text-align: center;
+  }
+
+  #resolution::after {
+    content: "M < 992px";
+  }
+}
+@media (min-width: 992px) {
+  #resolution {
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+  }
+
+  #resolution::after {
+    content: "L < 1200px";
+  }
+}
+@media (min-width: 1200px) {
+  #resolution {
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: yellow;
+    width: 100%;
+    text-align: center;
+  }
+
+  #resolution::after {
+    content: "XL < 1400px";
+  }
+}
+@media (min-width: 1400px) {
+  #resolution {
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    text-align: center;
+  }
+
+  #resolution::after {
+    content: "XXL < 1400px";
+  }
+}
